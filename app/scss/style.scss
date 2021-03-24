@@ -24,21 +24,21 @@
 
   &__list-link {
     color: $title;
-    padding-bottom: 1px;
+    padding: 0 2px 1px;
     transition: all .3s;
-    @extend %quicksad-400;
+    @extend %Roboto-500;
 
     &:hover {
       color: $accent;
       border-bottom: 1px solid $accent;
-      @extend %quicksad-500;
+      @extend %Roboto-700;
     }
   }
 
   &__list-link--active {
     color: $accent;
     border-bottom: 1px solid $accent;
-    @extend %quicksad-500;
+    @extend %Roboto-700;
   }
 }
 
